@@ -1,6 +1,6 @@
 import json
 
-from commands.base import Command
+from shards.commands.base import Command
 
 
 class IndexCommand(Command):

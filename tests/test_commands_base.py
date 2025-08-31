@@ -1,6 +1,6 @@
 from _commands.index import IndexCommand
 
-from commands.base import Command
+from shards.commands.base import Command
 
 
 def test_commands_base():

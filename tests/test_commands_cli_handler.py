@@ -1,7 +1,7 @@
 import json
 import sys
 
-from commands.base import cli_handler
+from shards.commands.base import cli_handler
 
 
 def test_commands_cli_handler_no_inputs():
