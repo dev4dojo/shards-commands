@@ -36,7 +36,7 @@ path = "src/commands/__about__.py"
 test = "pytest"
 test-cov = "coverage run -m pytest && coverage report --show-missing"
 
-[tool.hatch.envs.dev]
+[tool.hatch.envs.default]
 dependencies = [
   "pytest",
   "pytest-coverage",
