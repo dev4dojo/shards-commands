@@ -1,6 +1,6 @@
 # Shards | Commands
 
-This project provides a lightweight and extensible framework for building modular command-line interfaces (CLI) in Python. It allows easily define commands as separate modules and automatically discover and execute them without manually editing the main script.
+This project provides a lightweight and extensible framework for building modular command-line interfaces (CLI) in Python. It allows you to easily define commands as separate modules and automatically discover and execute them without manually editing the main script.
 
 ## Features
 
@@ -12,7 +12,7 @@ This project provides a lightweight and extensible framework for building modula
 ## How to install
 
 ```sh
-pip install https://github.com/dev4dojo/shards-commands.git@<versios>
+pip install https://github.com/dev4dojo/shards-commands.git@<version>
 ```
 
 ## Requirements
@@ -118,7 +118,7 @@ Abstract base class for defining commands.
 * `add_arguments(parser)` → define command-line arguments.
 * `execute(args)` → define logic executed when command runs.
 
-### `load_commands(commands_package: str) -> list[Command]`
+### `load_commands(commands_package: str) -> List[Command]`
 
 Dynamically imports all command modules from the specified package and instantiates them.
 
