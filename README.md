@@ -12,7 +12,7 @@ This project provides a lightweight and extensible framework for building modula
 ## How to install
 
 ```sh
-pip install https://github.com/dev4dojo/shards-commands.git@<version>
+pip install git+https://github.com/dev4dojo/shards-commands.git@<version>
 ```
 
 ## Requirements
@@ -25,7 +25,7 @@ pip install https://github.com/dev4dojo/shards-commands.git@<version>
 ```
 sample_project/
 │
-├── cli.py                     # Main CLI entry point (contains cli_handler)
+├── cli.py                     # Main CLI entry point (invokes cli_handler)
 ├── commands/                  # Package with command definitions
 │   ├── greet.py               # Example command
 │   └── math_ops.py            # Another command
